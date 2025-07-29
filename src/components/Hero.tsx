@@ -59,7 +59,7 @@ const StatBox: React.FC<StatBoxProps> = ({ endValue, label }) => {
     );
 };
 
-const Hero: React.FC = () => {
+const Hero = () => {
     return (
         
         <section className="pt-28 min-h-screen bg-gradient-to-b from-[#1D1F34] via-[#163C53] to-[#1D1F34] relative overflow-hidden">
