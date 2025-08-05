@@ -1,0 +1,68 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="designGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#01737d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3be8b0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="componentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1D1F34;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#163C53;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#designGradient)" rx="20"/>
+  
+  <!-- Design Canvas -->
+  <g transform="translate(50, 50)">
+    <!-- Main Canvas -->
+    <rect x="0" y="0" width="300" height="200" rx="10" fill="url(#componentGradient)" stroke="#00aac7" stroke-width="2"/>
+    
+    <!-- Header Bar -->
+    <rect x="0" y="0" width="300" height="30" rx="10" fill="#00aac7"/>
+    <circle cx="15" cy="15" r="5" fill="#3be8b0"/>
+    <circle cx="30" cy="15" r="5" fill="#01737d"/>
+    <circle cx="45" cy="15" r="5" fill="#00aac7"/>
+    
+    <!-- Navigation -->
+    <rect x="10" y="40" width="80" height="25" rx="5" fill="#3be8b0"/>
+    <rect x="100" y="40" width="60" height="25" rx="5" fill="#01737d"/>
+    <rect x="170" y="40" width="70" height="25" rx="5" fill="#00aac7"/>
+    
+    <!-- Content Area -->
+    <rect x="10" y="75" width="280" height="100" rx="5" fill="#1D1F34"/>
+    
+    <!-- UI Components -->
+    <!-- Cards -->
+    <rect x="20" y="85" width="80" height="60" rx="5" fill="#00aac7" opacity="0.8"/>
+    <rect x="110" y="85" width="80" height="60" rx="5" fill="#3be8b0" opacity="0.8"/>
+    <rect x="200" y="85" width="80" height="60" rx="5" fill="#01737d" opacity="0.8"/>
+    
+    <!-- Buttons -->
+    <rect x="20" y="155" width="60" height="25" rx="5" fill="#00aac7"/>
+    <rect x="90" y="155" width="60" height="25" rx="5" fill="#3be8b0"/>
+    <rect x="160" y="155" width="60" height="25" rx="5" fill="#01737d"/>
+    
+    <!-- Icons -->
+    <circle cx="35" cy="100" r="8" fill="#3be8b0"/>
+    <circle cx="125" cy="100" r="8" fill="#01737d"/>
+    <circle cx="215" cy="100" r="8" fill="#00aac7"/>
+  </g>
+  
+  <!-- Design Tools -->
+  <g transform="translate(320, 80)">
+    <!-- Color Palette -->
+    <rect x="0" y="0" width="60" height="20" rx="3" fill="#00aac7"/>
+    <rect x="0" y="25" width="60" height="20" rx="3" fill="#3be8b0"/>
+    <rect x="0" y="50" width="60" height="20" rx="3" fill="#01737d"/>
+  </g>
+  
+  <!-- Floating Design Elements -->
+  <circle cx="80" cy="80" r="12" fill="#00aac7" opacity="0.3"/>
+  <circle cx="320" cy="180" r="15" fill="#3be8b0" opacity="0.3"/>
+  <circle cx="90" cy="250" r="10" fill="#01737d" opacity="0.3"/>
+  
+  <!-- Design Symbols -->
+  <text x="50" y="280" font-family="Arial" font-size="14" fill="#00aac7" opacity="0.7">UI/UX</text>
+  <text x="320" y="280" font-family="Arial" font-size="12" fill="#3be8b0" opacity="0.7">Design</text>
+</svg> 

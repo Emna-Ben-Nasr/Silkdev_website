@@ -5,6 +5,11 @@ import Footer from '../components/Footer';
 import '../app/globals.css';
 import Mission from '../components/Mission';
 import ValuesSection from '../components/ValuesSection';
+import Team from '../components/Team';
+import Services from '../components/Services Section/Services';
+import PartnersBanner from '../components/PartnersBanner';
+import Contact from '../components/Contact';
+import Decision from '../components/Decision';
 
 const AboutUs: React.FC = () => {
   return (
@@ -13,6 +18,10 @@ const AboutUs: React.FC = () => {
       <StorySection />
       <Mission />
       <ValuesSection />
+      <Team />
+      <Services/>
+      <PartnersBanner/>
+      <Decision/>
       <Footer />
     </main>
   );

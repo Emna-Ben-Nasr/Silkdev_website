@@ -85,7 +85,7 @@ const ServiceCardScrollFade = ({ service, direction = 'row' }: { service: any, d
       </div>
       {/* Card - larger, with glass/gradient effect and more padding */}
       <motion.div
-        className="relative max-w-2xl w-full md:w-3/5 bg-gradient-to-br from-[#1D1F34]/90 via-[#163C53]/80 to-[#00aac7]/30 backdrop-blur-lg rounded-3xl shadow-2xl p-8 md:p-16 flex flex-col border-2 border-transparent hover:border-[#00aac7] hover:shadow-[0_0_32px_0_#00aac7] transition-all duration-300 z-20"
+        className="relative max-w-2xl w-full md:w-3/5 bg-gradient-to-br from-[#1D1F34]/90 via-[#163C53]/80 to-[#00aac7]/30 backdrop-blur-lg rounded-3xl shadow-2xl p-8 md:p-16 flex flex-col border-2 border-transparent hover:border-[#00aac7] hover:shadow-[0_0_32px_0_#00aac7] transition-all duration-300 "
         initial={{ opacity: 0, scale: 0.95 }}
         animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.95 }}
         transition={{ duration: 0.7, ease: 'easeOut' }}
