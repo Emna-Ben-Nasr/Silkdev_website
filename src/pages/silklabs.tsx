@@ -13,7 +13,7 @@ import UpcomingEvents from "../components/Silklabs/UpcomingEvents";
 import Newsletter from "../components/Silklabs/Newsletter";
 import SocialProof from "../components/Silklabs/SocialProof";
 import Footer from "../components/Footer";
-
+import Guarantee from "@/components/Silklabs/Gurantee";
 const SilkLabs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#1D1F34] via-[#163C53] to-[#1D1F34]">
@@ -34,26 +34,36 @@ const SilkLabs = () => {
       {/* Who It's For Section */}
       <WhoItsFor />
 
-      {/* How It Works Section */}
-      <HowItWorks />
-
-      {/* Success Stories Section */}
-      <SuccessStories />
-
+      {/* CTA Banner */}
+      <CTABanner />  
+        
       {/* Features Section */}
       <Features />
 
+      {/* Guarantee Section */}
+      <Guarantee/>
+
       {/* CTA Banner */}
-      <CTABanner />
+      <CTABanner />  
+
+      {/* How It Works Section */}
+      <HowItWorks />
+
+
+      {/* Success Stories Section */}
+      {/* <SuccessStories /> */}
+
+
+   
 
       {/* Upcoming Events Section */}
-      <UpcomingEvents />
+      {/* <UpcomingEvents /> */}
 
       {/* Newsletter Section */}
       <Newsletter />
 
       {/* Social Proof Section */}
-      <SocialProof />
+      {/* <SocialProof /> */}
       <Footer />
     </div>
   );

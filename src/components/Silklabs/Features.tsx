@@ -19,16 +19,16 @@ const Features = () => {
       title: "Investor Portal & Reporting",
       description: "Transparent reporting and direct access to investor networks and funding opportunities"
     },
-    {
-      icon: "🔐",
-      title: "Secure IP Management",
-      description: "Protect your intellectual property with enterprise-grade security and legal frameworks"
-    },
-    {
-      icon: "📊",
-      title: "Advanced Metrics & Growth Dashboard",
-      description: "Track your progress, impact, and growth with comprehensive analytics and insights"
-    }
+    // {
+    //   icon: "🔐",
+    //   title: "Secure IP Management",
+    //   description: "Protect your intellectual property with enterprise-grade security and legal frameworks"
+    // },
+    // {
+    //   icon: "📊",
+    //   title: "Advanced Metrics & Growth Dashboard",
+    //   description: "Track your progress, impact, and growth with comprehensive analytics and insights"
+    // }
   ];
 
   return (
