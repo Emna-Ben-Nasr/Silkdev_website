@@ -1,0 +1,9 @@
+export { default as HeroSection } from './HeroSection';
+export { default as WhySection } from './WhySection';
+export { default as HowItWorks } from './HowItWorks';
+export { default as WhoItsFor } from './WhoItsFor';
+export { default as Testimonials } from './Testimonials';
+export { default as GuildLeaderCTA } from './GuildLeaderCTA';
+export { default as FOMOSection } from './FOMOSection';
+export { default as PricingSection } from './PricingSection';
+export { default as FinalCTA } from './FinalCTA'; 
