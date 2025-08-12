@@ -252,6 +252,7 @@ const WhySection: React.FC = () => {
             >
               {/* Point 1 */}
               <div className="bg-gradient-to-br from-[#1D1F34]/80 to-[#163C53]/80 p-6 rounded-lg shadow-lg border border-[#00aac7]/30 text-center">
+                <h3 className="text-xl font-bold text-white mb-4">Tutorial Hell</h3>
                 <Image src={tutorialImage} alt="Tutorial Hell" className="w-full h-40 object-cover rounded-md mb-4" />
                 <p className="text-gray-300">
                   You're sitting there, staring at another boring tutorial, wondering if you'll ever actually <span className="text-[#00aac7] font-semibold">build something real</span>. The courses promise the world, but you're stuck in tutorial hell.
@@ -260,6 +261,7 @@ const WhySection: React.FC = () => {
 
               {/* Point 2 */}
               <div className="bg-gradient-to-br from-[#1D1F34]/80 to-[#163C53]/80 p-6 rounded-lg shadow-lg border border-[#00aac7]/30 text-center">
+                <h3 className="text-xl font-bold text-white mb-4">Lost in Forums</h3>
                 <Image src={forum} alt="Lost in Forums" className="w-full h-40 object-cover rounded-md mb-4" />
                 <p className="text-gray-300">
                   You try to ask questions online, but get lost in endless forum threads. Your motivation is fading, and that project you wanted to build? It's still just an idea in your head.
@@ -268,6 +270,7 @@ const WhySection: React.FC = () => {
 
               {/* Point 3 */}
               <div className="bg-gradient-to-br from-[#1D1F34]/80 to-[#163C53]/80 p-6 rounded-lg shadow-lg border border-[#00aac7]/30 text-center">
+                <h3 className="text-xl font-bold text-white mb-4">Learning in Isolation</h3>
                 <Image src={learning} alt="Learning in Isolation" className="w-full h-40 object-cover rounded-md mb-4" />
                 <p className="text-gray-300">
                   Sound familiar? You're not alone. <span className="text-[#3BE8B0] font-semibold">87% of learners give up</span> because they're learning in isolation, without real projects, without community, without that spark that keeps you going.

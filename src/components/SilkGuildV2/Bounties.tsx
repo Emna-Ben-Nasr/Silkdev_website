@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+
 const samples = [
   { company: "Truvado", title: "Frontend Guild Apprentice", reward: "$450", level: "Beginner", tags: ["React", "UI"], deadline: "6d" },
   { company: "Wolves", title: "UI Design Quest", reward: "$600", level: "Intermediate", tags: ["Figma", "Design"], deadline: "4d" },

@@ -88,7 +88,15 @@ const Team = () => {
   );
 };
 
-const TeamCard = ({ imageSrc, name, profession, linkedinUrl, portfolioUrl }) => {
+type TeamCardProps = {
+  imageSrc: string;
+  name: string;
+  profession: string;
+  linkedinUrl: string;
+  portfolioUrl: string;
+};
+
+const TeamCard: React.FC<TeamCardProps> = ({ imageSrc, name, profession, linkedinUrl, portfolioUrl }) => {
   return (
     <motion.div
       className="w-full max-w-[400px] relative"
