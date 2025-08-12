@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Testimonials from "@/components/Testimonials";
 import PartnersBanner from "@/components/PartnersBanner";
 import Footer from "@/components/Footer";
+import '../app/globals.css';
 
 export default function Home() {
   return (

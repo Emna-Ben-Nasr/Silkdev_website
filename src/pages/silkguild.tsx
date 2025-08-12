@@ -23,11 +23,11 @@ const silkguild: React.FC = () => {
       {/* SilkGuild Sections */}
       <HeroSection />
       <WhySection />
-      <HowItWorks />
       <WhoItsFor />
-      <Testimonials />
       <GuildLeaderCTA />
-      <FOMOSection />
+      <HowItWorks />
+      {/* <Testimonials /> */}
+      {/* <FOMOSection /> */}
       <PricingSection />
       <FinalCTA />
 
