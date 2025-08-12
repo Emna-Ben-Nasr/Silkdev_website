@@ -11,7 +11,7 @@ const timelineData = [
     description: "SILKDEV began as a small freelance operation, taking on diverse, random projects. We honed our craft by solving unique challenges, learning the art of custom software development with a focus on creativity and adaptability.",
     achievements: ["First freelance gigs", "Team of 2 developers", "Projects across industries"],
     icon: "M12 2l3 7h7l-3 7-7-3-7 3-3-7h7z",
-    image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f",
+    image: "/images/freelancer-coding.jpg",
     imageAlt: "Freelancer coding on laptop",
   },
   {
@@ -21,7 +21,7 @@ const timelineData = [
     description: "From freelancing, we formalized SILKDEV, focusing on building services tailored to customer needs. We listened closely, delivering custom tools and systems that empowered businesses to thrive through precise, reliable execution.",
     achievements: ["50+ client projects", "Team grew to 12", "First office in Tunis"],
     icon: "M9 5l7 7-7 7",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+    image: "/images/team-collaborating.jpg",
     imageAlt: "Team collaborating in office",
   },
   {
@@ -91,9 +91,11 @@ const StorySection = () => (
             >
               <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg border-2 border-[#00aac7]/50">
                 {typeof story.image === 'string' ? (
-                  <img
+                  <Image
                     src={story.image}
                     alt={story.imageAlt}
+                    width={800}
+                    height={600}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
                 ) : (

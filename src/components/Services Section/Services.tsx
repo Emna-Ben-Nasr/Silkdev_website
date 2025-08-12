@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
-import { useEffect, useRef } from "react";
+import Image, { StaticImageData } from "next/image";
+import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import silkdevio from "@/assets/silkdevio.jpg";
 import silkguild from "@/assets/silkguild.jpg";
@@ -36,14 +36,21 @@ const servicesData = [
   },
 ];
 
-const ServiceCardScrollFade = ({ service, direction = 'row' }: { service: any, direction?: 'row' | 'row-reverse' }) => {
-  const ref = useRef(null);
+interface Service {
+  title: string;
+  description: string;
+  image: string | StaticImageData;
+  url: string;
+}
+
+const ServiceCardScrollFade = ({ service, direction = 'row' }: { service: Service, direction?: 'row' | 'row-reverse' }) => {
+  const ref = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
   const { ref: inViewRef, inView } = useInView({ threshold: 0.2 });
   const imageY = useTransform(scrollYProgress, [0, 1], [30, -30]);
 
   // Combine refs for scroll and inView
-  const combinedRef = (node: any) => {
+  const combinedRef = (node: HTMLDivElement | null) => {
     ref.current = node;
     inViewRef(node);
   };

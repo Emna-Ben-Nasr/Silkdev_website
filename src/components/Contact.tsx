@@ -19,7 +19,7 @@ const ContactForm: React.FC = () => {
   return (
     <section className="w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-[#1D1F34] via-[#163C53] to-[#1D1F34] py-24 px-4">
       <div className="w-full max-w-2xl bg-color-[#9dd5bf] text-[#1D1F34] rounded-3xl shadow-2xl p-10 flex flex-col items-center">
-        <h2 className="text-4xl font-bold text-white mb-2 text-center">Let's work together !</h2>
+        <h2 className="text-4xl font-bold text-white mb-2 text-center">Let&apos;s work together !</h2>
         <p className="text-[#F8F8F9]/80 mb-8 text-center">
           Have a question, project, or just want to say hello? Fill out the form below!
         </p>
