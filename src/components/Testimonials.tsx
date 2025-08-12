@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
-import Lenis from 'lenis';
+import Lenis from '@studio-freight/lenis';
 
 const Testimonials: React.FC = () => {
     const [currentSlide, setCurrentSlide] = useState(0);

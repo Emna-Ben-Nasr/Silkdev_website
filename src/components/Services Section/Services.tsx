@@ -112,15 +112,7 @@ const Services: React.FC = () => {
   const container = useRef(null);
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
-  useEffect(() => {
-    const lenis = new (require('lenis')).default();
-    function raf(time: any) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-    return () => lenis.destroy();
-  }, []);
+  // Removed Lenis smooth scroll effect
 
   return (
     <main
@@ -135,9 +127,9 @@ const Services: React.FC = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, ease: 'easeOut' }}
         >
-Our Bag of Digital Tricks
+          Our Bag of Digital Tricks
 
-</motion.h2>
+        </motion.h2>
         {servicesData.map((service, idx) => (
           <ServiceCardScrollFade key={service.title} service={service} direction={idx % 2 === 0 ? 'row' : 'row-reverse'} />
         ))}
