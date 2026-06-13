@@ -1,8 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SILKDEV — Showcase Website 🚧
 
-## Getting Started
+> **Status: unfinished** — this redesign is not actively being worked on at the moment.
+> The site is functional and deployed, but content and some sections are still incomplete.
 
-First, run the development server:
+---
+
+## About
+
+SILKDEV is a global design and software company building **SilkLearn** — a knowledge synthesis platform that helps teams turn what they know into structured understanding everyone can follow and build on.
+
+This repository is a **Next.js redesign** of the company's showcase website, developed during a frontend internship. The goal was to replace the existing site with a modern, CRO-optimized experience covering SILKDEV's full ecosystem of services.
+
+---
+
+## Live previews
+
+| Version | URL | Stack |
+|---|---|---|
+| 🚧 New (this repo) | [silkdev-website.vercel.app](https://silkdev-website.vercel.app) | Next.js · Vercel |
+| ✅ Current (live) | [silkdev.com.tn](https://www.silkdev.com.tn) | Framer |
+
+---
+
+## What was built
+
+- Full redesign of the company showcase applying **CRO (Conversion Rate Optimization)** principles and modern UI/UX patterns
+- Multi-service landing structure covering SILKDEV.IO, SILKGUILD, SILKNEXUS, and SILKLABS
+- **AI-powered prompt engineering** for an internal sales tool that auto-generates commercial offers
+
+---
+
+## Tech stack
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+
+---
+
+## Getting started
+
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/silkdev-website.git
+cd silkdev-website
+npm install
+```
+
+### Run development server
 
 ```bash
 npm run dev
@@ -10,27 +62,34 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Project structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+app/
+├── page.tsx        # Main landing page
+├── layout.tsx      # Root layout
+├── about/          # About page
+├── contact/        # Contact page
+└── ...
+public/             # Static assets
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Learn more
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Vercel Deployment Guide](https://nextjs.org/docs/app/building-your-application/deploying)
