@@ -7,8 +7,6 @@
 
 ## About
 
-SILKDEV is a global design and software company building **SilkLearn** — a knowledge synthesis platform that helps teams turn what they know into structured understanding everyone can follow and build on.
-
 This repository is a **Next.js redesign** of the company's showcase website, developed during a frontend internship. The goal was to replace the existing site with a modern, CRO-optimized experience covering SILKDEV's full ecosystem of services.
 
 ---
